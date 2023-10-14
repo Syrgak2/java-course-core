@@ -1,4 +1,4 @@
-public class Transport {
+public abstract class Transport implements Serviceable {
     private String modelName;
 
     private int wheelsCount;
@@ -7,6 +7,19 @@ public class Transport {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
+
+
+    @Override
+    public void check() {
+        updateTyre();
+    }
+
+    public void updateTyre() {
+        for (int i = 0; i < this.getWheelsCount(); i++) {
+            System.out.println("Меняем покрышку");
+        }
+    }
+
 
     public String getModelName() {
         return modelName;
