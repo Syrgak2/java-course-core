@@ -1,3 +1,7 @@
+package hogwarts;
+
+import hogwarts.*;
+
 public class Main {
     public static void main(String[] args) {
         // Единица измерения от 0 до 10

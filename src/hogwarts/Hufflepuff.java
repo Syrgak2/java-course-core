@@ -1,4 +1,8 @@
-public class Hufflepuff extends Hogwarts{
+package hogwarts;
+
+import hogwarts.Hogwarts;
+
+public class Hufflepuff extends Hogwarts {
     private int hardworking;
     private int loyalty;
     private int honesty;

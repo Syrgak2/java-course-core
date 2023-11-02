@@ -1,3 +1,5 @@
+package hogwarts;
+
 public class Hogwarts {
     private String name;
     private int witchcraft;

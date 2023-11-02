@@ -1,4 +1,8 @@
-public class Ravenclaw extends Hogwarts{
+package hogwarts;
+
+import hogwarts.Hogwarts;
+
+public class Ravenclaw extends Hogwarts {
     private int wisdom;
     private int wit;
     private int creativity;

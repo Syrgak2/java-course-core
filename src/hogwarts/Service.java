@@ -1,3 +1,9 @@
+package hogwarts;
+
+import hogwarts.Gryffindor;
+import hogwarts.Hogwarts;
+import hogwarts.Hufflepuff;
+import hogwarts.Ravenclaw;
 
 public class Service {
     public void print(Ravenclaw[] ravenclaws, String name) {

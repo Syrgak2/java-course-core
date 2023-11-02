@@ -1,4 +1,8 @@
-public class Slytherin extends Hogwarts{
+package hogwarts;
+
+import hogwarts.Hogwarts;
+
+public class Slytherin extends Hogwarts {
     private int cunning;
     private int determination;
     private int ambition;
